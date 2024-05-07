@@ -8,12 +8,12 @@ const Intro = () => {
         <img
           src={Logo}
           width={172}
-          alt="Ignite - Coming Soon and Landing Page Template"
+          alt="LiquidForge"
           className="mx-[1.5rem] max-md:mb-[1.2rem]"
         />
         <div className="overflow-hidden inline-flex px-[1.5rem] max-md:w-full">
           <a
-            href="https://1.envato.market/9gBzn0"
+            href="https://app.liquidforge.io"
             target="_blank"
             rel="noreferrer"
             className="relative border-2 border-white bg-transparent text-white block h-16 px-8 rounded-[2rem] font-semibold text-[1.4rem] leading-[3.6rem] group w-full text-center"
@@ -40,7 +40,7 @@ const Intro = () => {
       <div className="relative overflow-hidden h-[200px] md:h-[280px] 2xl:h-[400px] -mt-[10.6rem] md:-mt-[16.2rem] 2xl:-mt-[25rem]" style={{ filter: "hue-rotate(120deg)", marginTop: "20px" }} >
         <img
           src={Wave}
-          alt="Ignite Wave"
+          alt=""
           className="block absolute top-0 left-1/2 right-auto -translate-x-1/2 h-full w-auto mx-auto max-w-none"
         />
       </div>

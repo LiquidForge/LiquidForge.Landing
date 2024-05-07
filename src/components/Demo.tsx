@@ -62,7 +62,7 @@ const Demo = () => {
     //         <div className="bg-[#0c0c0c]">
     //           <img
     //             src={DemoPlaceholder}
-    //             alt="Ignite Coming Soon Template Preview Screen"
+    //             alt="LiquidForge Coming Soon Template Preview Screen"
     //           />
     //         </div>
     //       </div>

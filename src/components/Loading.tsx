@@ -17,7 +17,7 @@ const Loading = () => {
           <div className="animate-[fade-out_0.3s_1_both]">
             <img
               src={Logo}
-              alt="Ignite - Coming Soon and Landing Page Template"
+              alt="LiquidForge - Coming Soon and Landing Page Template"
             />
           </div>
         </div>

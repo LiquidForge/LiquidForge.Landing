@@ -30,7 +30,7 @@ const DemoItem: React.FC<DemoItemProps> = ({
         <div className="border border-[#3d3d3d] transition-all duration-500 overflow-hidden group-hover:border-[#999] ">
           <img
             src={image}
-            alt="Ignite Coming Soon Template Preview Screen"
+            alt="LiquidForge Coming Soon Template Preview Screen"
             className="block transition-all duration-500 w-full h-auto group-hover:contrast-125"
           />
         </div>
