@@ -25,7 +25,7 @@ export default {
       },
       backgroundImage: {
         "footer-img": `url(img/demo/footer-bg.webp)`,
-        "intro-img": `url(img/demo/large-type.svg)`,
+        "intro-img": `url(img/demo/large-name.png)`,
       },
       transitionTimingFunction: {
         smooth: "cubic-bezier(0.23, 0.65, 0.74, 1.09)",

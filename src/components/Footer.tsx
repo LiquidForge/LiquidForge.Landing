@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const Footer = () => {
   return (
-    <footer className="relative bg-footer-img bg-top bg-no-repeat bg-[length:260%] md:bg-[length:160%] xl:bg-[length:100%] z-[1] bg-[#0c0c0c]">
+    <footer className="relative bg-top bg-no-repeat bg-[length:260%] md:bg-[length:160%] xl:bg-[length:100%] z-[1] bg-[#0c0c0c]">
       <div className="relative xl:container px-[10%] xl:px-6">
         <div className="py-32 md:py-44 2xl:py-56 text-center">
-          <p className="font-light text-[2rem] leading-[1.4] md:text-[2.8rem] md:max-w-[320px] 2xl:text-[3.6rem] 2xl:max-w-[420px] mx-auto mb-[3.2rem]">
+          {/* <p className="font-light text-[2rem] leading-[1.4] md:text-[2.8rem] md:max-w-[320px] 2xl:text-[3.6rem] 2xl:max-w-[420px] mx-auto mb-[3.2rem]">
             Show your ceativity and get noticed today!
-          </p>
-          <div className="overflow-hidden inline-flex">
+          </p> */}
+          {/* <div className="overflow-hidden inline-flex">
             <a
               href="https://1.envato.market/9gBzn0"
               target="_blank"
@@ -23,27 +23,19 @@ const Footer = () => {
                 Purchase now
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="xl:absolute flex max-xl:flex-col justify-between items-center xl:bottom-0 xl:left-1/2 right-auto xl:-translate-x-1/2 w-full pb-16 xl:pb-[2.8rem] text-[#999] uppercase tracking-[0.1rem] text-[1.1rem] md:px-6 leading-[1.3] md:text-[1.2rem] text-center">
           <p>
-            Say hello on{" "}
             <a
-              href="mailto:support@mixdesign.club?subject=Message%20from%20Ignite%20demo"
+              href="mailto:support@liquidforge.io?subject=Message%20from%20Visitor"
               className="hover:text-white duration-500 transition-colors"
             >
-              support@mixdesign.club
+              support@liquidforge.io
             </a>
           </p>
           <p>
-            Made With <FontAwesomeIcon icon={faHeart} /> by{" "}
-            <a
-              href="https://1.envato.market/EKA9WD"
-              target="_blank"
-              className="hover:text-white duration-500 transition-colors"
-            >
-              mix_design
-            </a>
+            TWITTER | GITHUB
           </p>
         </div>
       </div>
