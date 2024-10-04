@@ -5,12 +5,7 @@ const Intro = () => {
   return (
     <div>
       <div className="relative xl:container flex max-md:flex-col items-center justify-between md:h-[96px] max-md:py-16 px-[calc(10%-1.5rem)] xl:px-0 opacity-0 group-data-loaded/body:animate-[0.8s_0.6s_ease-in-out_1_both_fade-in]">
-        <img
-          src={Logo}
-          width={172}
-          alt="LiquidForge"
-          className="mx-[1.5rem] max-md:mb-[1.2rem]"
-        />
+        <model-viewer src={"models/logo.glb"} camera-controls shadow-intensity="1" camera-orbit="calc(0deg + 0 * 4rad) calc(90deg + 0 * 180deg) 20m" style={{ width: "172px" }} ></model-viewer>
         <div className="overflow-hidden inline-flex px-[1.5rem] max-md:w-full">
           <a
             href="https://app.liquidforge.io"
