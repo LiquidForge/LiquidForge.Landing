@@ -23,6 +23,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="xl:container px-[10%] xl:px-6">
+	  <model-viewer src={"models/dwarf.glb"} autoplay scale="4 4 4 " shadow-intensity="1" camera-orbit="calc(0deg + 0 * 4rad) calc(90deg + 0 * 180deg) 20m" style={{ border: '1px solid red;', position: "absolute", top: 0, bottom: 0, left: 0, right: 0, width: "100%", height: "100%" }} ></model-viewer>
         <div className="pt-16 pb-44 md:pt-20 md:pb-[22.8rem] 2xl:pt-32 2xl:pb-[31rem] relative bg-intro-img bg-no-repeat bg-bottom bg-[length:100%] text-center">
           {/* <span className="block text-[1.4rem] 2xl:text-[1.6rem] leading-none uppercase tracking-[0.1rem] mb-[2.4rem] opacity-0 group-data-loaded/body:animate-[0.4s_0.3s_ease-in-out_1_both_slide-in-up]">
             Try LiquidForge

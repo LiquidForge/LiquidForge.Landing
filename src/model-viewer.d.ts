@@ -7,6 +7,8 @@ declare namespace JSX {
         // Ajoutez d'autres attributs personnalisés si nécessaire
         'auto-rotate'?: boolean;
         'camera-controls'?: boolean;
+		'autoplay'?: boolean;
+		'scale'?: string;
       };
     }
   }
