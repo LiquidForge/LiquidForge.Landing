@@ -9,6 +9,7 @@ declare namespace JSX {
         'camera-controls'?: boolean;
 		'autoplay'?: boolean;
 		'scale'?: string;
+        'target'?: string;
       };
     }
   }

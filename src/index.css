@@ -25,6 +25,16 @@ body {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .footer-div {
+    width: 100%!important;
+    transform: translate(0px, 0px)!important;
+  }
+  .anim-3d {
+    top: 300!important;
+  }
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: #555;
   border-radius: 10px;
